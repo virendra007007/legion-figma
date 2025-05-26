@@ -1,4 +1,3 @@
-// import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -69,6 +68,7 @@ const UniverseSlider = () => {
                 <h2 className=" font-SquadaOne  text-3xl md:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-800 mb-4">
                   THE UNIVERSE
                 </h2>
+
                 <p className="font-Outfit text-sm md:text-base text-white max-w-3xl mx-auto ">
                   We have created a new Super-Powered Universe with an initial 5
                   feature films. We plan to grow and expand like the Marvel
