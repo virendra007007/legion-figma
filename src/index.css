@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: Squada One;
+  src: url("../src/assets/fonts/SquadaOne-Regular.ttf");
+}
+@font-face {
+  font-family: Outfit;
+  src: url("../src/assets/fonts/Outfit-Regular.ttf");
+}
+@theme{
+  --font-SquadaOne: Squada One, "sans-serif"
+}
+@theme{
+  --font-Outfit: Outfit, "sans-serif"
+}
+

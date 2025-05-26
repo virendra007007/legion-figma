@@ -1,0 +1,21 @@
+.custom-clip-corner { 
+   clip-path: polygon(0 0, 90% 0, 100% 10%, 100% 100%, 0% 100%);
+}
+.clip-polygon {
+    clip-path: polygon(0 0, 70% 0, 100% 20%, 100% 100%, 0% 100%);
+  }
+
+
+.btn--doar {
+  color: #fff;
+  padding-right: 0;
+  background-color: #c0392b;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 100% 70%, 90% 100%, 0% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 50%, 75% 100%, 0 100%);
+
+}
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
